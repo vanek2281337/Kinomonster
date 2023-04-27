@@ -43,6 +43,16 @@ const data = [
     constructor()
     {
     this.cardMovie = `
+<div class="col-3 mt-5">
+    <div class="card w-90 mx-auto">
+    <img src="$image" class ="card-img-top" alt="...">
+    <div class ="card-body">
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+    </div>
+    </div>`
+
     <div class="col-3 mt-5">
     <div class="card w-90 mx-auto">
     <img src="$image" class ="card-img-top" alt="...">
@@ -75,5 +85,8 @@ const data = [
     document.getElementById("app")
     .innerHTML += template
     }
+    }
+    renderShow(context){
+
     }
     }
